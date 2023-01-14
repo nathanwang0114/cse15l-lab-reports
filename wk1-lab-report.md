@@ -27,7 +27,7 @@ After installing Git, it is time to setup bash in the terminal.
 `Bash Setup for Windows` Use this link here to set your terminal in Visual Studio Code to git bash: [Using Bash on VSCode for Windows](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
 
 `Bash Setup for MacOS` 
-1. Open up the terminal in Visual Studios Code by either 
+1. Open up the terminal in Visual Studios Code by either...
 * going up to your menu bar while having VS Code open and pressing terminal, then new terminal.
 * using the keyboard shortcut for toggling the terminal which can be found in the image below.
 2. In the terminal at the bottom right next to the '+' sign, there is a down arrow. Press that to open up the drop down menu and select bash as your terminal. The image below shows this.
@@ -86,3 +86,7 @@ Below is an image showing an example of running the pwd command:
 ![image](pwd-command-example.png)
 
 `pwd` prints the working directory from the current user
+
+To log out of the remote server you can either...
+* use the keyboard shortcut Ctrl-D for Windows or Cmd-D for Mac.
+* run the command 'exit' in your terminal.
