@@ -11,4 +11,8 @@ Move on to the next step of the lab if waiting for password to reset.
 ## *2. Setting Up Visual Studio Code*
 `For Lab Computers`Visual Studio Code is already installed on the computers in the computer lab, so you can skip the insatllation process if you choose to use the computers in the computer lab. All work during this quarter can be worked on using those computers, so no need to set up on your personal computers. 
 
-`Installing Visual Studio Code on Your Laptop` Go to the visual studio code website here to install it for your laptop's operating system:  https://code.visualstudio.com/
+`Installing Visual Studio Code on Your Laptop` Go to the visual studio code website here and follow the instructions to install it for your laptop's operating system:  https://code.visualstudio.com/
+
+After installing, open it up and choose your theme. Once you do that, your Visual Studio Code should application should look like the image below.
+
+
