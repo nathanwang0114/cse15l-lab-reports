@@ -82,3 +82,5 @@ Some specific useful commands to try out:
 * cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
 Below is an image showing an example of running the pwd command: 
+
+![image](pwd-command-example)
