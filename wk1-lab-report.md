@@ -32,5 +32,6 @@ After installing Git, it is time to setup bash in the terminal.
 * using the keyboard shortcut for toggling the terminal which can be found in the image below.
 2. In the terminal at the bottom right next to the '+' sign, there is a down arrow. Press that to open up the drop down menu and select bash as your terminal. The image below shows this.
 
+![image](bash-setup-mac)
 
 
