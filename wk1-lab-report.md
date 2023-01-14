@@ -14,5 +14,6 @@ Move on to the next step of the lab if waiting for password to reset.
 `Installing Visual Studio Code on Your Laptop` Go to the visual studio code website here and follow the instructions to install it for your laptop's operating system:  https://code.visualstudio.com/
 
 After installing, open it up and choose your theme. Once you do that, your Visual Studio Code should application should look like the image below.
+![Image](vs-code-setup-pic.png)
 
 
