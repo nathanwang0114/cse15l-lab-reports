@@ -84,3 +84,5 @@ Some specific useful commands to try out:
 Below is an image showing an example of running the pwd command: 
 
 ![image](pwd-command-example.png)
+
+`pwd` prints the working directory from the current user
