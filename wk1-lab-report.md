@@ -67,4 +67,17 @@ ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 
 Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
 ```
-Good Job! You have successfully connected remotely from the terminal on your computer to a computer in the CSE basement. This means that any commands you do on your terminal(the client) will run on that computer(the server). 
+Good Job! You have successfully connected remotely from the terminal on your computer to a computer in the CSE basement. This means that any commands you do on your terminal(the client) will run on that computer(the server).
+
+## *4. Try Out Some Commands in the Terminal*
+Some common commands you should get familiar with are 'cd', 'ls', 'pwd', 'mkdir', and 'cp'. Run these commands a couple times both on the bash terminal and your own computer's terminal to see what each command does. Discuss in your group and figure out what each command does.
+
+Some specific useful commands to try out:
+*cd ~
+*cd
+*ls -lat
+*ls -a
+ls<directory> * *<directory> is replaced with '/home/linux/ieng6/cs15lwi23/cs15lwi23zzz', where 'zzz' is a group member's unique 3 letters for their CSE15L account.* *
+*cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+*cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+
