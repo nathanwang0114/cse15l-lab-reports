@@ -44,3 +44,5 @@ If this step is done correctly, you should see a message like this in your termi
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?`
+
+Type 'yes' in the terminal and press enter.
