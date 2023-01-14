@@ -73,11 +73,11 @@ Good Job! You have successfully connected remotely from the terminal on your com
 Some common commands you should get familiar with are 'cd', 'ls', 'pwd', 'mkdir', and 'cp'. Run these commands a couple times both on the bash terminal and your own computer's terminal to see what each command does. Discuss in your group and figure out what each command does.
 
 Some specific useful commands to try out:
-*cd ~
-*cd
-*ls -lat
-*ls -a
-ls<directory> * *<directory> is replaced with '/home/linux/ieng6/cs15lwi23/cs15lwi23zzz', where 'zzz' is a group member's unique 3 letters for their CSE15L account.* *
-*cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-*cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+* cd ~
+* cd
+* ls -lat
+* ls -a
+* ls<directory> * *<directory> is replaced with '/home/linux/ieng6/cs15lwi23/cs15lwi23zzz', where 'zzz' is a group member's unique 3 letters for their CSE15L account.* *
+* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+* cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
