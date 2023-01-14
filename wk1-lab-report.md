@@ -37,3 +37,9 @@ After installing Git, it is time to setup bash in the terminal.
 After opening the git bash terminal, type the command below in the terminal to use ssh.
 
 `ssh cs15lwi23zzz@ieng6.ucsd.edu` * *'zzz' should be replaced by the 3 letters that are unique for each CSE15L student and in the terminal you enter the command after the "$" sign* *
+
+If this step is done correctly, you should see a message like this in your terminal since this is likely your first time connecting to the server.
+
+`The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?`
