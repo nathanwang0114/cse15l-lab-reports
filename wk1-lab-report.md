@@ -21,3 +21,9 @@ After installing, open it up and choose your theme. Once you do that, your Visua
 `For Window Personal Devices Only` * *DO NOT do this for the computers in the computer lab because Git is already installed. Mac users don't need to do this as well.* *
 
 Install Git for Windows using this link: https://gitforwindows.org/  
+
+After installing Git, it is time to setup bash in the terminal.
+
+`Bash Setup for Windows`
+
+`Bash Setup for MacOS`
