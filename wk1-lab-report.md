@@ -18,4 +18,4 @@ After installing, open it up and choose your theme. Once you do that, your Visua
 ![Image](vs-code-setup-pic.png)
 
 ## *3. How to Connect Remotely*
-`For Window Personal Devices Only` Install Git for Windows using this link: https://gitforwindows.org/ *Note: DO NOT do this for the computers in the computer lab because git is already installed.
+`For Window Personal Devices Only` Install Git for Windows using this link: https://gitforwindows.org/ * *DO NOT do this for the computers in the computer lab because git is already installed.* *
