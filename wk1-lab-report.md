@@ -9,7 +9,5 @@ Use this link here to access the Google Doc with detailed instrunctions on how t
 Move on to the next step of the lab if waiting for password to reset.
 
 ## *2. Setting Up Visual Studio Code*
-`For Lab Computers`
-
-Visual Studio Code is already installed on the computers in the computer lab, so you can skip the insatllation process if you choose to use the computers in the computer lab. All work during this quarter can be worked on using those computers, so no need to set up on your personal computers. 
+`For Lab Computers`Visual Studio Code is already installed on the computers in the computer lab, so you can skip the insatllation process if you choose to use the computers in the computer lab. All work during this quarter can be worked on using those computers, so no need to set up on your personal computers. 
 
