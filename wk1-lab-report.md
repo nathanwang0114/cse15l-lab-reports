@@ -51,7 +51,8 @@ If that is done correctly, the terminal should prompt you to type in your passwo
 
 If everything went smoothly, you should see this in your terminal.
 
-`# Now on remote server
+```
+# Now on remote server
 Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
 quota: No filesystem specified.
 Hello cs15lwi23zz, you are currently logged into ieng6-203.ucsd.edu
@@ -64,4 +65,5 @@ ieng6-201   23:25:01   0  0.08,  0.17,  0.11
 ieng6-202   23:25:01   1  0.09,  0.15,  0.11
 ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 
-Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23`
+Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
+```
