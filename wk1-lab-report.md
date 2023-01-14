@@ -24,7 +24,10 @@ Install Git for Windows using this link: https://gitforwindows.org/
 
 After installing Git, it is time to setup bash in the terminal.
 
-`Bash Setup for Windows` Use this link here to set your terminal in Visual Studio Code to git bash: [Using bash for windows on VSCode](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
+`Bash Setup for Windows` Use this link here to set your terminal in Visual Studio Code to git bash: [Using Bash on VSCode for Windows](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
 
-`Bash Setup for MacOS`
-Ω
+`Bash Setup for MacOS` 
+1. Open up the terminal in Visual Studios Code by either 
+* going up to your menu bar while having VS Code open and pressing terminal, then new terminal.
+* using the keyboard shortcut for toggling the terminal which can be found in the image below.
+2. 
