@@ -81,3 +81,4 @@ Some specific useful commands to try out:
 * cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
+Below is an image showing an example of running the pwd command: 
