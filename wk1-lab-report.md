@@ -67,3 +67,4 @@ ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 
 Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
 ```
+Good Job! You have successfully connected remotely from the terminal on your computer to a computer in the CSE basement. This means that any commands you do on your terminal(the client) will run on that computer(the server). 
