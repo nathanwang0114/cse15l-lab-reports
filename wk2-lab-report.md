@@ -70,3 +70,12 @@ Failure Inducing Input:
     assertArrayEquals(new int[] {2, 1},expected);
   }
 ```
+
+Input That Doesn't Induce a Failure:
+```
+@Test
+  public void testReversedEmptyList() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
