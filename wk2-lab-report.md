@@ -5,7 +5,7 @@
 ```
 import java.io.IOException;
 import java.net.URI;
-
+/add
 class Handler implements URLHandler {
     String word = "";
 
@@ -40,3 +40,5 @@ class StringServer {
 }
 ```
 **Screenshots of `/add-message` Being Used**
+
+Calling request `/add-message?s=Hello, how are you?' to our StringServer
