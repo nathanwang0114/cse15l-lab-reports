@@ -39,4 +39,4 @@ class StringServer {
     }
 }
 ```
-**Screenshots of `add/message` Being Used**
+**Screenshots of `/add-message` Being Used**
