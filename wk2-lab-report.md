@@ -111,4 +111,4 @@ The fix addresses the bug in the original code because originally the code was t
 
 ## Part 3: Something New That I Learned
 
-Something I learned in lab during week 2 that I didn't know before was how to host a local server off my own computer. Through that lab I was able to learn how to code a URL Handler that took in diffrent requests and how to use those paths to run certain things on a server. I also learned what files I needed to actually start up the server and how to get the host from a command line argument. Lastly, I learned the commands to compile and run by server to boot it up on to the internet.
+Something I learned in lab during week 2 that I didn't know before was how to host a local server off my own computer. Through that lab I was able to learn how to code a URL Handler that took in diffrent requests and how to use those paths to run certain things on a server. I also learned what files I needed to actually start up the server and how to get the host from a command line argument. Lastly, I learned the commands to compile and run my server to boot it up on to the internet.
