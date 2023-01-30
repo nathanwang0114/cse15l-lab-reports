@@ -108,3 +108,5 @@ static int[] reversed(int[] arr) {
 ```
 
 The fix addresses the bug in the original code because originally the code was taking elements from the newly created array into our original array and returning the original array which is now made up of the elements in the new array but reversed. The new array is supposed to be the one taking in elements from the orginal array in reverse order, not the other way around. When taking in elements from the new array to the original array, the original array will become all 0's because the new array is instantiated using the length of the original array. This means that all the elements in the new array is the default value, which is 0. In order to fix this, I set it so that the new array is taking in elements from the original array in reverse order, and return the new array instead of the original array.
+
+## Part 3: Something New That I Learned
