@@ -46,3 +46,5 @@ Calling request `/add-message?s=Hello, how are you?` to StringServer
 ![image](add-message-one.png)
 
 Calling request `/add-message?s=I am doing great!` to StringServer
+
+![image](add-message-two.png)
