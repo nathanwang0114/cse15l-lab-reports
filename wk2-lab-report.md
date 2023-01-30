@@ -1,7 +1,7 @@
 # Week 2 Lab Report
 ---
 ## Part 1: Writing a Web Server Called String Server
-*Code for StringerServer*
+**Code for StringerServer**
 ```
 import java.io.IOException;
 import java.net.URI;
