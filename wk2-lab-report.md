@@ -44,7 +44,7 @@ class StringServer {
 Calling request `/add-message?s=Hello, how are you?` to StringServer
 
 The methods being called are HandleRequest in class Handler and the main method in class String Server. 
-The relevant argument to the HandleRequest method is the parameter url, which is a URI. The relevant argument to the main method is the command line argument, which only takes the port part of the url. Everytime we enter a new url, the parameter that holds a URI changes in HandlerRequest. The value of String word also could change if `/add-message` is requestd in the url. For the call in the screenshot, word starts off as an emtpy string, then the String `Hello, how are you?` is concatenated to word. The host number will remain the same as long as I am using the same server. 
+The relevant argument to the HandleRequest method is the parameter url, which is a URI. The relevant argument to the main method is the command line argument, which only takes the port number part of the url. Everytime we enter a new url, the parameter that holds a URI changes in HandlerRequest. The value of String word also could change if `/add-message` is requested in the url. For the call in the screenshot, word starts off as an emtpy String, then the String `Hello, how are you?` is concatenated to word. The port number will remain the same as long as I am using the same server. 
 
 
 
@@ -53,7 +53,7 @@ The relevant argument to the HandleRequest method is the parameter url, which is
 Calling request `/add-message?s=I am doing great!` to StringServer
 
 The methods being called are HandleRequest in class Handler and the main method in class String Server. 
-The relevant argument to the HandleRequest method is the parameter url, which is a URI. The relevant argument to the main method is the command line argument, which only takes the port part of the url. Everytime we enter a new url, the parameter that holds a URI changes in HandlerRequest. The value of String word also could change if `/add-message` is requestd in the url. For the call in the screenshot, word starts off as `Hello, how are you?`, then a line is skipped and the String `I am doing great!` is concatenated to word. The host number will remain the same as long as I am using the same server. 
+The relevant argument to the HandleRequest method is the parameter url, which is a URI. The relevant argument to the main method is the command line argument, which only takes the port number part of the url. Everytime we enter a new url, the parameter that holds a URI changes in HandlerRequest. The value of String word also could change if `/add-message` is requested in the url. For the call in the screenshot, word starts off as `Hello, how are you?`, then a line is skipped and the String `I am doing great!` is concatenated to word. The port number will remain the same as long as I am using the same server. 
 
 ![image](add-message-two.png)
 
@@ -107,8 +107,8 @@ static int[] reversed(int[] arr) {
 }
 ```
 
-The fix addresses the bug in the original code because originally the code was taking elements from the newly created array into our original array and returning the original array which is now made up of the elements in the new array but reversed. The new array is supposed to be the one taking in elements from the orginal array in reverse order, not the other way around. When taking in elements from the new array to the original array, the original array will become all 0's because the new array is instantiated using the length of the original array. This means that all the elements in the new array is the default value, which is 0. In order to fix this, I set it so that the new array is taking in elements from the original array in reverse order, and return the new array instead of the original array.
+The fix addresses the bug in the original code because originally the code was taking elements from the newly created array into our original array and returning the original array which is now made up of the elements in the new array but reversed. The new array is supposed to be the one taking in elements from the orginal array in reverse order, not the other way around. When taking in elements from the new array to the original array, the original array will become all 0's because the new array is instantiated using the length of the original array. This means that all the elements in the new array is the default value, which is 0. In order to fix this, I set it so that the new array is taking in elements from the original array in reverse order, and then the method returns the new array instead of the original array.
 
 ## Part 3: Something New That I Learned
 
-Something I learned in lab during week 2 that I didn't know before was how to host a local server off my own computer. Through that lab I was able to learn how to code a URL Handler that took in diffrent requests and how to use those paths to run certain things on a server. I also learned what files I needed to actually start up the server and how to get the host from a command line argument. Lastly, I learned the commands to compile and run my server to boot it up on to the internet.
+Something I learned in lab during week 2 that I didn't know before was how to host a local server off my own computer. Through that lab I was able to learn how to code a URL Handler that took in diffrent requests and how to use those paths to run certain things on a server. I also learned what files I needed to actually start up the server and how to get the port number from a command line argument. Lastly, I learned the commands to compile and run my server to boot it up on to the internet.
