@@ -58,3 +58,15 @@ The relevant argument to the HandleRequest method is the parameter url, which is
 ![image](add-message-two.png)
 
 ## Part 2: Choosing One of The Bugs in Lab 3
+
+**Method: Reversed**
+
+Failure Inducing Input:
+```
+@Test
+  public void testReversedNonEmptyList() {
+    int[] input2 = {1, 2};
+    int[] expected = ArrayExamples.reversed(input2);
+    assertArrayEquals(new int[] {2, 1},expected);
+  }
+```
