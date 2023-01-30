@@ -1,6 +1,6 @@
 # Week 2 Lab Report
 ---
-## Part 1: Writing a Web Server Called String Server
+## *Part 1: Writing a Web Server Called String Server*
 ```
 import java.io.IOException;
 import java.net.URI;
