@@ -56,3 +56,5 @@ The methods being called are HandleRequest in class Handler and the main method 
 The relevant argument to the HandleRequest method is the parameter url, which is a URI. The relevant argument to the main method is the command line argument, which only takes the port part of the url. Everytime we enter a new url, the parameter that holds a URI changes in HandlerRequest. The value of String word also could change if `/add-message` is requestd in the url. For the call in the screenshot, word starts off as `Hello, how are you?`, then a line is skipped and the String `I am doing great!` is concatenated to word. The host number will remain the same as long as I am using the same server. 
 
 ![image](add-message-two.png)
+
+## Part 2: Choosing One of The Bugs in Lab 3
