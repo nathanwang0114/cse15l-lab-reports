@@ -79,3 +79,7 @@ Input That Doesn't Induce a Failure:
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
+
+Symptom: 
+
+![image](lab-report2-symptom.png)
