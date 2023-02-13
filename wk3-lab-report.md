@@ -45,7 +45,7 @@ The `grep -rl` command is a combination of both the current `-l` command and the
 
 *citation: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)*
 ```
-[cs15lwi23ahp@ieng6-201]:skill-demo1-data:410$ grep -w "Lucayan" */*/*/*
+grep -w "Lucayan" */*/*/*
 grep: written_2/non-fiction/OUP/Abernathy: Is a directory
 grep: written_2/non-fiction/OUP/Berk: Is a directory
 grep: written_2/non-fiction/OUP/Castro: Is a directory
