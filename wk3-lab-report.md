@@ -20,6 +20,7 @@ written_2/non-fiction/OUP/Rybczynski/ch3.txt:Early in his career, after emigrati
 The `grep -r` command is a command that searches through all directories and subdirectories recursively starting from given directory, and the given directory this time is the non fiction subdirectory. You can see here that the command only searches recrusively starting from non fiction not printing out any results from travel guides, and this is useful as you don't have to know exactly the amount of sub directories until you find the keyword like with regular grep and can search through all directories in one command. 
 
 `grep -l`
+
 *citation: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)*
 ```
 grep -l "Lucayans" */*/*/*
@@ -41,6 +42,7 @@ written_2/travel_guides/berlitz2/Costa-WhereToGo.txt
 The `grep -rl` command is a combination of both the current `-l` command and the previous `-r` command. The command does the same thing as `-l`, but does it while recursively searching through all the directories and subdirectories using `-r`, which is useful when you do not have a clue about which directory a keyword is in. 
 
 `grep -w`
+
 *citation: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)*
 ```
 [cs15lwi23ahp@ieng6-201]:skill-demo1-data:410$ grep -w "Lucayan" */*/*/*
@@ -59,7 +61,7 @@ written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt:The name Exuma is said to
 written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt:The Spaniards wiped out the population of Lucayan Indians who lived here, and the island remained unpopulated for over 200 years, until it was settled by a number of Loyalist families from the American colonies. They attempted to grow cotton in the thin layer of soil but were unsuccessful, and at the announcement of emancipation they abandoned the island, leaving their slaves behind.
 written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt:Traveling south from Stella Maris you’ll pass uninhabited mangrove swamps on the way to the small town of Simms, an unhurried old settlement known for its distinctive straw-work, which craftswomen are delighted to show visitors. At Deadman’s Cay you’ll find an extensive cave system with faded Lucayan rock drawings. After passing small pineapple and banana plantations, you’ll reach attractive Clarence Town, with its two large churches — one Anglican, the other Roman Catholic — built by Cat Island hermit architect Father Jerome. The blue hole at nearby Turtle Cove, a half-mile walk from the road over rough terrain, provides a memorable diving experience, though it’s interesting even from the rim. The hole is about 80 yards (73 m) across and at least 600 ft (183 m) deep; you’ll sometimes see large turtles and tarpon in the waters.
 ```
-The `grep -w` command is the same as the regular `grep` command except it looks for the exact match for the keyword. This is useful when there could be words that have your keyword inside of them, but aren't your keyword exactly like the given example above "Lucayan" using grep `-w` does not consider the word "Lucayans" as a match where as regular grep would. 
+The `grep -w` command is the same as the regular `grep` command except it looks for the exact match for the keyword. This is useful when there could be words that have your keyword inside of them, but aren't your keyword exactly like the given example above "Lucayan" using `grep -w` does not consider the word "Lucayans" as a match where as regular `grep` would. 
 ```
 grep -wl "Lucayan" */*/*/*
 grep: written_2/non-fiction/OUP/Abernathy: Is a directory
@@ -73,6 +75,7 @@ written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
 The `grep -wl` command is a combination of both the current -w command and the previous `-l` command. The command does the same thing as `-w`, but using the `-l` command so there isn't a clutter of words on your terminal showing where the keyword is in a text, instead only showing you the path that gets you to the exact given keyword.
 
 `grep -i`
+
 *citation: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)*
 ```
 grep -i "lucayans" */*/*/*
