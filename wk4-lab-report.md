@@ -20,7 +20,7 @@ I first typed in git clone which is the cloning command. Then, I used `<ctrl-v>`
 
 **Step 6: Run the tests, demonstrating that they fail**
 
-![image](lab7-step6.png)
+![image](lab7-step-6.png)
 
 *Keys Pressed:* `cd<space>lab7<enter>, <ctrl-v><enter>, <ctrl-v>ListExamplesTests<enter>`
 
@@ -29,11 +29,23 @@ I first cd'ed into the repository I cloned by typing 'cd lab7'. Then in order to
 **Step 7: Edit the code file to fix the failing test**
 
 ![image](lab7-step7.png)
-12 right 42 down
+
 *Keys Pressed:* `nano<space>ListExamples.java<enter>, <down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><right><right><right><right><right><right><right><right><right><right><right><right><backspace>2<ctrl-o><enter><ctrl-x>`
 
 In order to edit the code through the terminal, I have to use the nano code editor on the terminal by typing nano 'ListExamples.Java', which is the name of the file. Then, I downed arrow 42 times to get to the 43rd line where the bug is. From there, I right arrowed 12 times to get to the spot right after where the bug is. I backspace and enter 2 to fix the bug which was incrementing index1 instead index 2. Then, in order to save my changes I pressed `<ctrl-o>` and entered to save. Lastly, in order to exit out of nano I pressed `<ctrl-x>`.
 
 **Step 8: Run the tests, demonstrating that they now succeed**
+
+![image](lab7-step8.png)
+
+*Keys Pressed:* `<up><up><up><enter>, <up><up><up><enter>`
+
+To run the Junit tests again, I have to compile the tests and run them. These are the same commands I used previously in the terminal to run them the first time, so I up arrowed 3 times to get back to the Junit compline line. Pressing enter I compile the Junit tests. Lastly, I went back to the Junit run line which is now 3 arrows up, so I up arrowed 3 times and press entered to run the tests. Now, we can see that the tests have passed meaning we fixed the bug.
+
+**Step 9: Commit and push the resulting change to your Github account**
+
+![image](lab7-step9.png)
+
+*Keys Pressed:* `git<space>add<space>ListExamples.java<enter>, git<space>commit<space>-m<space>"Fixed"<enter>, git<space>push<enter>`
 
 
