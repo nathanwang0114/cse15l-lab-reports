@@ -14,4 +14,12 @@ I used `<ctrl-v>` to paste in the login info from week 1 lab. Then, I used the l
 
 ![image](lab7-step5.png)
 
+*Keys Pressed:* `git<space>clone<space><ctrl-v>`
 
+I first typed in git clone which is the cloning command. Then, I used `<ctrl-v>` to paste in the ssh clone link of my lab7 forked repository from github. Finally, I pressed enter to clone the repository onto ieng6.
+
+**Step 6: Run the tests, demonstrating that they fail**
+
+![image](lab7-step6.png)
+
+*Keys Pressed:* `cd<space>lab7, <ctrl-v>, <ctrl-v>ListExamplesTests>`
