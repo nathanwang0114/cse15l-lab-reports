@@ -4,4 +4,5 @@
 
 **Step 4**
 
-*Keys Pressed:* fdfdd
+*Keys Pressed:* Log into ieng6
+![image](lab7-step4.png)
