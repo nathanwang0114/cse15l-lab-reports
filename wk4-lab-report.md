@@ -25,3 +25,7 @@ I first typed in git clone which is the cloning command. Then, I used `<ctrl-v>`
 *Keys Pressed:* `cd<space>lab7<enter>, <ctrl-v><enter>, <ctrl-v>ListExamplesTests<enter>`
 
 I first cd'ed into the repository I cloned by typing 'cd lab7'. Then in order to run the Junit tests, I went to the week 3 lab to copy and paste the mac Junit commands. I copied the compile line and pasted it into the terminal using `<ctrl-v>` and pressing enter. Then, I have to run the test so I copied the Junit run line from week 3's lab up to the part right before ArrayTests, since I am going to be running a different tester file. I paste the line I just copied into the terminal using `<ctrl-v>` and typing in the tester file's name, 'ListExamplesTests', after it. Lastly, I press enter to run the Junit test and it shows that one test failed.
+
+**Step 7: Edit the code file to fix the failing test**
+12 right 42 down
+*Keys Pressed:* `nano<space>ListExamples.java<enter>, <down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><right><right><right><right><right><right><right><right><right><right><right><right><backspace>2<ctrl-o><enter><ctrl-x>`
