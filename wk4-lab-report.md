@@ -48,4 +48,4 @@ To run the Junit tests again, I have to compile the tests and run them. These ar
 
 *Keys Pressed:* `git<space>add<space>ListExamples.java<enter>, git<space>commit<space>-m<space>"Fixed"<enter>, git<space>push<enter>`
 
-
+I first added the file I wanted to commit to my GitHub account by typing 'git add ListExamples.java' and pressing enter. 'git add' is the terminal command used to add files you want to commit to GitHub and the editted file's name is 'ListExamples.java'. Then, in order to commit the file I typed the command 'git commit -m "Fixed"' and pressed enter. 'git commit is the terminal command used to commit a file to GitHub and '-m' is used to specify that you are specifying the commit message through the terminal. The commit messagge I chose was 'Fixed', so you can see that I typed "Fixed" after '-m'. Lastly, in order to push it onto my GitHub account I have to type git push and enter.
