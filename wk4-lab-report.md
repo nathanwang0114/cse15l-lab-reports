@@ -12,4 +12,6 @@ I used `<ctrl-v>` to paste in the login info from week 1 lab. Then, I used the l
 
 **Step 5: Clone your fork of the repository from your Github account**
 
+![image](lab7-step5.png)
+
 
