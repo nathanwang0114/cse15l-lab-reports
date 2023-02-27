@@ -27,5 +27,13 @@ I first typed in git clone which is the cloning command. Then, I used `<ctrl-v>`
 I first cd'ed into the repository I cloned by typing 'cd lab7'. Then in order to run the Junit tests, I went to the week 3 lab to copy and paste the mac Junit commands. I copied the compile line and pasted it into the terminal using `<ctrl-v>` and pressing enter. Then, I have to run the test so I copied the Junit run line from week 3's lab up to the part right before ArrayTests, since I am going to be running a different tester file. I paste the line I just copied into the terminal using `<ctrl-v>` and typing in the tester file's name, 'ListExamplesTests', after it. Lastly, I press enter to run the Junit test and it shows that one test failed.
 
 **Step 7: Edit the code file to fix the failing test**
+
+![image](lab7-step7.png)
 12 right 42 down
 *Keys Pressed:* `nano<space>ListExamples.java<enter>, <down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><right><right><right><right><right><right><right><right><right><right><right><right><backspace>2<ctrl-o><enter><ctrl-x>`
+
+In order to edit the code through the terminal, I have to use the nano code editor on the terminal by typing nano 'ListExamples.Java', which is the name of the file. Then, I downed arrow 42 times to get to the 43rd line where the bug is. From there, I right arrowed 12 times to get to the spot right after where the bug is. I backspace and enter 2 to fix the bug which was incrementing index1 instead index 2. Then, in order to save my changes I pressed `<ctrl-o>` and entered to save. Lastly, in order to exit out of nano I pressed `<ctrl-x>`.
+
+**Step 8: Run the tests, demonstrating that they now succeed**
+
+
