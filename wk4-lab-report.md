@@ -6,4 +6,4 @@
 
 ![image](lab7-step4.png)
 
-*Keys Pressed:* <ctrl-V><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><backspace><backspace><a><h><p><enter>
+*Keys Pressed:* `<ctrl-V><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><backspace><backspace><a><h><p><enter>`
