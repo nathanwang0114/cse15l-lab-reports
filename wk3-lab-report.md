@@ -1,4 +1,4 @@
-# Week 3 Lab Report
+# Lab Report 3
 
 ## 4 Different Ways to Use Grep in the Command Line
 
