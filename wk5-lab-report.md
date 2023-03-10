@@ -1,4 +1,5 @@
 #Lab Report 5
+
 ##Writing a Bash Script to Run the Commands in Lab Report 4##
 
 For my final lab report, I decided to go back and visit one of my favorite labs/lab reports which was the lab we used to write Lab Report 4. I am going to do the task in a different way then in lab, instead of typing in the commands in the terminal and doing terminal shortcuts to make the process faster, I am deciding to instead write a bash script instead, which will definitely be faster then I can manually achieve. 
