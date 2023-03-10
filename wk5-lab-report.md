@@ -36,7 +36,7 @@ I had to create two seperate bash scripts in order to complete all the terminal 
 
 ** Screenshots of me Running lab9.sh and Running all the Commands from Lap Report 4 **
 
-![image](lab9-pic1.png)
+![image](lab9-step1.png)
 
-![image](lab9-pic2.png)
+![image](lab9-step2.png)
 
