@@ -29,3 +29,5 @@ git add ListExamples.java
 git commit -m "Fixed"
 git push
 ```
+
+** Explanatation of My Process Writing These Bash Scripts **
